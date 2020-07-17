@@ -1,0 +1,234 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#header {
+    height: 80px;
+    background-color: #071137;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+#monzo {
+    width: 150px;
+    margin-left: 20%;
+    margin-top: 25px;
+}
+
+.listaPrincipal {
+    float: left;
+    margin-top: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #BEC1CD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+button {
+    border-radius: 5px;
+    border: solid 1px #0A94EF;
+    width: 75px;
+    height: 30px;
+    color: white;
+    background-color: #0A94EF;
+    margin-top: 24px;
+    margin-right: 50px;
+}
+
+#main {
+    height: 825px;
+    background-color: #071137;
+    overflow: hidden;
+}
+
+#cardEscritorio {
+    margin-top: 25px;
+    height: 800px;
+    width: 1000px;
+    margin-right: -350px;
+    float: right;
+}
+
+#texto {
+    margin-top: 250px;
+    margin-left: 75px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+}
+
+#bank {
+    color: white;
+}
+
+h3 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 30px;
+    width: 35%;
+}
+
+h5 {
+    font-size: 20px;
+    color: #4D577C;
+    margin-top: 150px;
+}
+
+#manage {
+    height: 750px;
+}
+
+#moviles {
+    float: right;
+    width: 600px;
+    margin-top: -80px;
+}
+
+.imagenMoney {
+    float: left;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+
+.textoMoney {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.textoSecundarioMoney {
+    margin-left: 4.7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 30%;
+    margin-bottom: 100px;
+}
+
+#money {
+    margin-left: 90px;
+    margin-top: 100px;
+}
+
+#listaMoney {
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+#account {
+    height: 750px;
+    background: url('./imagenes/imágenes\ e\ iconos\ current\ account/current-account-imagen.jpg');
+}
+
+#accountContainer {
+    margin-left: 100px;
+    padding-top: 350px;
+}
+
+#currentAccount {
+    color: white;
+}
+
+#cards {
+    height: 750px;
+    background-color: #F1F4FF;
+    margin: 0;
+}
+
+#card1 {
+    background-color: white;
+    z-index: 1;
+    width: 45%;
+    height: 35%;
+    margin-left: 3%;
+    border-radius: 6px;
+}
+
+.titleCard {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    width: 60%;
+}
+
+.textCard {
+    width: 65%;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    color: gray;
+}
+
+#imageCard1 {
+    margin-right: 5%;
+    margin-top: 15%;
+    width: 150px;
+    float: right;
+}
+
+
+@media (max-width: 1400px) {
+    #cardEscritorio {
+        margin-right: -350px;
+    }
+}
+@media (max-width: 1300px) {
+    #cardEscritorio {
+        margin-right: -350px;
+    }
+    #texto {
+        margin-top: 150px;
+    }
+}
+@media (max-width: 1200px) {
+    #cardEscritorio {
+        margin-right: -350px;
+    }
+    #texto {
+        margin-top: 100px;
+    }
+    h5 {
+        margin-top: 80px;
+    }
+    h3 {
+        width: 50%;
+    }
+}
+@media (max-width: 1100px) {
+    #cardEscritorio {
+        margin-right: -350px;
+    }
+    #texto {
+        margin-top: 15px;
+    }
+    h5 {
+        margin-top: 50px;
+    }
+}
+@media (max-width: 1000px) {
+    #cardEscritorio {
+        margin-right: -350px;
+    }
+    #texto {
+        margin-top: 10px;
+    }
+    h5 {
+        margin-top: 5px;
+    }
+}

@@ -1,0 +1,313 @@
+body {
+    background-color: #071137;
+    overflow-x: hidden;
+}
+
+div {
+    margin-left: -8px;
+    position: absolute;
+    width: 100%;
+}
+
+#header {
+    height: 8%;
+    border-bottom: 1px solid gray;
+}
+
+#monzo {
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+
+.listaPrincipal {
+    float: left;
+}
+
+li {
+    list-style: none;
+    padding: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    margin-top: -1.4%;
+    float: right;
+    margin-right: 30%;
+}
+
+button {
+    position: absolute;
+    right: 10%;
+    margin-top: 1.4%;
+    border-radius: 5px;
+    border: solid 1px #0A94EF;
+    width: 75px;
+    height: 30px;
+    color: white;
+    background-color: #0A94EF;
+}
+
+#main {
+    margin-top: 4%;
+    position: absolute;
+    height: 30%;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 44px;
+}
+
+#bank {
+    color: white;
+}
+
+h3 {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    font-size: 30px;
+}
+
+h5 {
+    font-size: 20px;
+    color: #4D577C;
+    margin-top: 35%;
+}
+
+#texto {
+    position: absolute;
+    left: 8%;
+    top: 60%;
+    width: 30%;
+}
+
+#cardEscritorio {
+    width: 1000px;
+    position: absolute;
+    left: 67%;
+    float: right;
+}
+
+#apple {
+    width: 150px;
+}
+
+#android {
+    width: 150px;
+}
+
+#manage {
+    height: 100%;
+    background-color: white;
+    margin-top: 47%;
+    position: absolute;
+}
+
+#moviles {
+    position: absolute;
+    left: 60%;
+    float: right;
+    width: 650px;
+    top: 10%;
+}
+
+#money {
+    position: absolute;
+    top: 12%;
+    left: 8%;
+}
+
+#listaMoney {
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    width: 100%;
+}
+
+.imagenMoney {
+    float: left;
+    margin-right: 2%;
+    margin-top: 5px;
+}
+
+.textoMoney {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.textoSecundarioMoney {
+    margin-left: 4.7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 30%;
+}
+
+#account {
+    height: 79%;
+    background: url('./imagenes/imágenes\ e\ iconos\ current\ account/current-account-imagen.jpg');
+    margin-top: 97%;
+    position: absolute;
+}
+
+#currentAccount {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+#accountSecondary {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    width: 40%;
+}
+
+#cards {
+    background-color: #F1F4FF;
+    height: 79%;
+    margin-top: 137%;
+}
+
+#card1 {
+    background-color: white;
+    z-index: 1;
+    width: 45%;
+    height: 35%;
+    margin-top: -4%;
+    margin-left: 3%;
+    border-radius: 6px;
+}
+
+#card2 {
+    background-color: white;
+    z-index: 1;
+    width: 45%;
+    height: 35%;
+    margin-top: -4%;
+    margin-left: 51%;
+    border-radius: 6px;
+}
+
+#card3 {
+    background-color: white;
+    z-index: 1;
+    width: 45%;
+    height: 40%;
+    margin-top: 12%;
+    margin-left: 3%;
+    border-radius: 6px;
+}
+
+#card4 {
+    background-color: white;
+    z-index: 1;
+    width: 45%;
+    height: 40%;
+    margin-top: 12%;
+    margin-left: 51%;
+    border-radius: 6px;
+}
+
+.titleCard {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    width: 60%;
+}
+
+.textCard {
+    width: 65%;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    color: gray;
+}
+
+#imageCard1 {
+    margin-right: 5%;
+    margin-top: 15%;
+    width: 150px;
+    float: right;
+}
+
+#imageCard2 {
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 150px;
+    float: right;
+}
+
+#imageCard3 {
+    margin-top: -11%;
+    margin-right: 7%;
+    width: 125px;
+    float: right;
+}
+
+#imageCard4 {
+    margin-right: 8%;
+    margin-top: 10%;
+    width: 100px;
+    float: right;
+}
+
+#imageCard5 {
+    margin-right: 7%;
+    margin-top: 11%;
+    width: 130px;
+    float: right;
+}
+
+#footer {
+    height: 40%;
+    margin-top: 170%;
+    display: flex;
+}
+
+#logoFooter {
+    width: 50px;
+    height: 50px;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+.listaFooter {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 28%;
+    color: grey;
+    float: left;
+    margin-left: 85px;
+}
+
+.listaRedesSociales {
+    float: left;
+    margin-top: 36%;
+}
+
+#redesSociales {
+    margin-left: 18%;
+}
+
+.imagenRedSocial {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: grey;
+    border-radius: 5px;
+}
+
+@media (max-width: 400px) {
+
+}
