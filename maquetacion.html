@@ -19,7 +19,8 @@
                 <li class="listaPrincipal"><a href="">FAQ</a></li>
             </ul>
         </nav>
-            <button>Sing up</button>
+        <button>Sing up</button>
+        <h6>Menu</h6>
     </div>
     <div id="main">
         <img src="./imagenes/cards-escritorio.png" id="cardEscritorio">
@@ -31,32 +32,37 @@
             <img src="./imagenes/app stores/apple-appstore.svg" id="apple">
             <img src="./imagenes/app stores/googleplay.svg" id="android">
         </div>
+        <img src="./imagenes/card-movil.png" id="cardMovil">
     </div>
     <div id="manage">
-        <img src="./imagenes/imágenes manage your money/imagen-principal.png" id="moviles">
-        <h1 id="money">Manage your money</h1>
-        <ul id="listaMoney">
-            <li class="listaMoney">
-                <img src="./imagenes/imágenes manage your money/target.svg" class="imagenMoney">
-                <p class="textoMoney">Set spending budgets</p>
-                <p class="textoSecundarioMoney">Set a monthly budgets for spending on things like groceries and going out.</p>
-            </li>
-            <li class="listaMoney">
-                <img src="./imagenes/imágenes manage your money/summary.svg" class="imagenMoney">
-                <p class="textoMoney">Set spending budgets</p>
-                <p class="textoSecundarioMoney">Set a monthly budgets for spending on things like groceries and going out.</p>
-            </li>
-            <li class="listaMoney">
-                <img src="./imagenes/imágenes manage your money/notification.svg" class="imagenMoney">
-                <p class="textoMoney">Set spending budgets</p>
-                <p class="textoSecundarioMoney">Set a monthly budgets for spending on things like groceries and going out.</p>
-            </li>
-        </ul>
+        <div id="bloqueMoney">
+            <h1 id="money">Manage your money</h1>
+            <ul id="listaMoney">
+                <li class="listaMoney">
+                    <img src="./imagenes/imágenes manage your money/target.svg" class="imagenMoney">
+                    <p class="textoMoney">Set spending budgets</p>
+                    <p class="textoSecundarioMoney">Set a monthly budgets for spending on things like groceries and going out.</p>
+                </li>
+                <li class="listaMoney">
+                    <img src="./imagenes/imágenes manage your money/summary.svg" class="imagenMoney">
+                    <p class="textoMoney">Set spending budgets</p>
+                    <p class="textoSecundarioMoney">Set a monthly budgets for spending on things like groceries and going out.</p>
+                </li>
+                <li class="listaMoney">
+                    <img src="./imagenes/imágenes manage your money/notification.svg" class="imagenMoney">
+                    <p class="textoMoney">Set spending budgets</p>
+                    <p class="textoSecundarioMoney">Set a monthly budgets for spending on things like groceries and going out.</p>
+                </li>
+            </ul>
+        </div>
+        <div id="contenedorMoviles">
+            <img src="./imagenes/imágenes manage your money/imagen-principal.png" id="moviles">
+        </div>
     </div>
     <div id="account">
         <div id="accountContainer">
             <h1 id="currentAccount">The Monzo Current Account</h1>
-            <h3 id="accountSecondary">A full UK bank account that you can from your phone in minutes</h3>
+            <h3 id="accountSecondary">A full UK bank account that you can from your phone in minutes.</h3>
         </div>
     </div>
     <div id="cards">
@@ -64,10 +70,44 @@
             <img src="./imagenes/imágenes e iconos current account/current-account-switch.png" id="imageCard1">
             <p class="titleCard">Easy account switching</p>
             <p class="textCard">The current Account Switch Service makes it simple, reliable and hassle-free to switch from one UK banck to another.</p>
+            <img src="./imagenes/imágenes e iconos current account/current-account-switch.png" id="imageCard1Mobile">
+        </div>
+        <div id="card2">
+            <img src="./imagenes/imágenes e iconos current account/directdebits.png" id="imageCard2">
+            <p class="titleCard">Straightforward payments</p>
+            <p class="textCard">Set up Direct and standing orders in-app, and send money to any other UK banck account instantly.</p>
+            <img src="./imagenes/imágenes e iconos current account/directdebits.png" id="imageCard2Mobile">
+            <img src="./imagenes/imágenes e iconos current account/fasterpayments.png" id="imageCard3">
+        </div>
+        <div id="card3">
+            <img src="./imagenes/imágenes e iconos current account/overdraft-icon.png" id="imageCard4">
+            <p class="titleCard">A flexible overdraft, if you want it</p>
+            <p class="textCard">If you're eligible, you can switch on an overdraft in the app any time. Don't want and overdraft? No problem, you don't have to have one. </p>
+            <img src="./imagenes/imágenes e iconos current account/overdraft-icon.png" id="imageCard4Mobile">
+        </div>
+        <div id="card4">
+            <img src="./imagenes/imágenes e iconos current account/fscs-logo.png" id="imageCard5">
+            <p class="titleCard">Protection for your money</p>
+            <p class="textCard">Every Monzo account is protected by the Financal Services Competition Scheme (FSCS), so your money is safe up to £85,000 no matter what happens. </p>
+            <img src="./imagenes/imágenes e iconos current account/fscs-logo.png" id="imageCard5Mobile">
         </div>
     </div>
     <div id="footer">
-
+        <div id="contendorLogoFooter">
+            <img src="./imagenes/footer/logo-footer.png" id="logoFooter">
+        </div>
+        <ul id="informacionFooter">
+            <li class="listaFooter">About us</li>
+            <li class="listaFooter">Community</li>
+            <li class="listaFooter">FAQ</li>
+        </ul>
+        <ul id="redesSociales">
+            <li class="listaRedesSociales"><a href=""><img src="./imagenes/footer/icono-twitter.svg" class="imagenRedSocial"></a></li>
+            <li class="listaRedesSociales"><a href=""><img src="./imagenes/footer/icono-facebook.svg" class="imagenRedSocial"></a></li>
+            <li class="listaRedesSociales"><a href=""><img src="./imagenes/footer//icono-instagram.svg" class="imagenRedSocial" id="instagram"></a></li>
+            <li class="listaRedesSociales"><a href=""><img src="./imagenes/footer/icono-linkedin.svg" class="imagenRedSocial"></a></li>
+            <li class="listaRedesSociales"><a href=""><img src="./imagenes/footer/icono-youtube.svg" class="imagenRedSocial"></a></li>
+        </ul>
     </div>
 </body>
 </html>
