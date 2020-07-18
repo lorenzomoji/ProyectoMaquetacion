@@ -436,6 +436,9 @@ h5 {
         margin-top: 60px;
         margin-right: 10px;
     }
+    #sistemasOperativos {
+        margin-left: -25px;
+    }
     #apple {
         display: flex;
         justify-content: center;
@@ -587,6 +590,22 @@ h5 {
     #informacionFooter {
         width: 100%;
         margin: 0;
+        padding-inline-start: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    .listaFooter {
+        margin-left: 0;
+        margin-top: 15px;
+        padding: 3%;
+    }
+    #redesSociales {
+        margin-left: 0;
+        padding-inline-start: 0;
+    }
+    .listaRedesSociales {
+        margin-left: -25px;
+        margin-top: 10px;
     }
 }
 
